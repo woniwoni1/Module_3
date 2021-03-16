@@ -1,0 +1,74 @@
+  /** HEADER **/
+  #header-nav {
+    background-color: #adabab;
+    border-radius: 0;
+    border: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-brand a { /* Restaurant name */
+    font-family: 'Oxygen', serif;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+   /* line-height: .75; */
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }
+  
+  #nav-list {
+    background: white;
+    border: 1px solid #e7e7e7;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #nav-list a {
+    color: #070707;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #nav-list hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: blue;
+    background-color: #888;
+    height: 2px;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  
+  
+  #header-nav span.icon-bar{
+    background: #e7e7e7;
+  }
+  
+  #header-nav .navbar-toggle:hover span.icon-bar,
+   #header-nav .navbar-toggle:focus span.icon-bar{
+    background: #888;
+  }
+  
+  .menu-header{
+    margin-bottom: 40px;
+    font-family: 'Oxygen', serif;
+    font-size: 2.0em
+    
+  }
+  .menu-content{
+    background: #adabab;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Oxygen', serif;
+  }
+  
